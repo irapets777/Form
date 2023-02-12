@@ -1,0 +1,47 @@
+<section class="form">
+    <div class="user__item">
+        <img src="./img/Mask group.png" alt="img">
+        <div class="item__btn">
+            <button>Змінити фото</button>
+            <button>Видалити</button>
+        </div>
+    </div>
+    <form>
+        <input class="form__name" type="text" id="name" name="name" placeholder="ім'я" required><br>
+        <input class="form__name" type="text" id="surname" name="surnamename" placeholder="прізвище" required><br>
+        <h2 class="form__title">Про мене</h2>
+        <textarea id="form__area" cols=80% rows="10"></textarea>
+        <h2 class="form__title">Локація</h2>
+        <select class="location__option"  name="location" id="location">
+            <option value="">оберіть локацію</option>
+            <option value="lviv">Львів</option>
+            <option value="odesa">Одеса</option>
+            <option value="kyiv">Київ</option>
+        </select>
+        <h2 class="form__title">Мови спілкування</h2>
+        <select class="lang__option"  name="lang" id="lang">
+            <option value="">оберіть мову</option>
+            <option value="ukr">Українська</option>
+            <option value="eng">Анлійська</option>
+            <option value="pl">Польська</option>
+        </select>
+        <h2 class="form__title">Досвід роботи</h2>
+        <input type="checkbox" id="check" name="expirience1" value="expirience">
+        <label for="expirience1">Без досвіду роботи</label>
+        <input type="checkbox" id="check" name="expirience2" value="expirience">
+        <label for="expirience2">Від 1 до 3 років</label><br>
+        <input type="checkbox" id="check" name="expirience3" value="expirience">
+        <label for="expirience3">Від 3 до 6 років</label>
+        <input type="checkbox" id="check" name="expirience4" value="expirience">
+        <label for="expirience4">Більше 6 років</label><br>
+
+        <h2 class="form__title">Термін, який готова працювати</h2>
+
+        <input type="checkbox" id="check" name="term1" value="term1">
+        <label for="term1">до 10 днів</label><br>
+        <input type="checkbox" id="check" name="term2" value="term2">
+        <label for="term2">від 10 днів і більше</label><br>
+       
+        <input id="sub" type="submit" value="Submit">
+    </form>
+</section>
